@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { getImgUrl } from "../utils/cine-utility";
 import Rating from "./Rating";
-import MovieDetailsModal from "./movieDetailsModal";
+import MovieDetailsModal from "./MovieDetailsModal";
 import { MovieContext } from "../context";
 import { toast } from "react-toastify";
 
